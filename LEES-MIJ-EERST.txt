@@ -1,0 +1,24 @@
+RADIO CIRA APK - AUTOMATISCH BOUWEN
+
+Dit project bouwt automatisch een installeerbare Android APK via GitHub Actions.
+De app opent rechtstreeks: https://radiocira.nl/test/
+
+BELANGRIJK
+- Dit ZIP-bestand is het bronproject, nog niet de APK.
+- Je hebt een gratis GitHub-account nodig.
+- Upload de INHOUD van deze map naar een nieuwe GitHub-repository.
+- Kies bij het aanmaken van de repository: Public (makkelijkste optie) of Private.
+- Upload alle bestanden en mappen, inclusief de verborgen map .github.
+
+APK LATEN BOUWEN
+1. Open je repository op GitHub.
+2. Klik bovenaan op Actions.
+3. Kies links 'Bouw Radio CiRa APK'.
+4. Klik op 'Run workflow' en daarna nogmaals op de groene knop.
+5. Wacht tot de workflow groen is.
+6. Open de uitgevoerde workflow en zoek onderaan 'Artifacts'.
+7. Download 'Radio-CiRa-APK.zip' en pak dat ZIP-bestand uit.
+8. Daarin staat app-debug.apk. Dat is het APK-bestand voor je Android-telefoon.
+
+Als Actions niet zichtbaar is, open dan Settings > Actions > General en controleer
+of Actions is ingeschakeld.
